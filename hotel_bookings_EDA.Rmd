@@ -382,6 +382,8 @@ Nothing too spread out for this plot, the main consistency is that the last week
 of the month is almost always the number one week, with `Aviation` having the
 second week as their most common. We can change this up a bit to see if any months
 in particular show trends of bookings.
+
+# Bookings Time Series Analysis
 ```{r}
 hotels %>% 
   filter(between(arrival_date, as.Date("2016-01-01"), as.Date("2016-12-31"))) %>% 
