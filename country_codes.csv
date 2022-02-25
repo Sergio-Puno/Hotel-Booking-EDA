@@ -1,0 +1,244 @@
+﻿country,country_name
+ALA,Aland Islands
+ALB,Albania
+AND,Andorra
+ARM,Armenia
+AUT,Austria
+BLR,Belarus
+BEL,Belgium
+BIH,Bosnia and Herzegovina
+BGR,"Bulgaria, Republic of"
+HRV,Croatia
+CZE,Czech Republic (Czechia)
+DNK,Denmark
+EST,Estonia
+FRO,Faroe Islands
+FIN,Finland
+FRA,France
+DEU,Germany
+GIB,Gibraltar
+GRC,Greece
+GGY,Guernsey
+VAT,Holy See (Vatican City State)
+HUN,Hungary
+ISL,Iceland
+IRL,Ireland
+IMN,Isle of Man
+ITA,Italy
+JEY,Jersey
+LVA,Latvia
+LIE,Liechtenstein
+LTU,Lithuania
+LUX,Luxembourg
+MKD,Republic of North Macedonia
+MLT,Malta
+MDA,Moldova
+MCO,Monaco
+MNE,Montenegro
+NLD,Netherlands
+NOR,Norway
+POL,Poland
+PRT,Portugal
+ROU,Romania
+RUS,Russian Federation
+SMR,San Marino
+SRB,Serbia
+SVK,Slovakia (Slovak Republic)
+SVN,Slovenia
+ESP,Spain
+SJM,Svalbard & Jan Mayen Islands
+SWE,Sweden
+CHE,Switzerland
+UKR,Ukraine
+GBR,United Kingdom
+DZA,Algeria
+AGO,Angola
+BEN,Benin
+BWA,Botswana
+BFA,Burkina Faso
+BDI,Burundi
+CMR,Cameroon
+CPV,Cape Verde
+CAF,Central African Republic
+TCD,Chad
+COM,Comoros
+COG,Congo
+COD,"Congo, Democratic Republic of"
+CIV,Côte d'Ivoire
+DJI,Djibouti
+EGY,Egypt
+GNQ,Equatorial Guinea
+ERI,Eritrea
+ETH,Ethiopia
+GAB,Gabon
+GMB,Gambia
+GHA,Ghana
+GIN,Guinea
+GNB,Guinea-Bissau
+KEN,Kenya
+LSO,Lesotho
+LBR,Liberia
+LBY,Libyan Arab Jamahiriya
+MDG,Madagascar
+MWI,Malawi
+MLI,Mali
+MRT,Mauritania
+MUS,Mauritius
+MYT,Mayotte
+MAR,Morocco
+MOZ,Mozambique
+NAM,Namibia
+NER,Niger
+NGA,Nigeria
+REU,Reunion
+RWA,Rwanda
+SHN,Saint Helena
+STP,Sao Tome and Principe
+SEN,Senegal
+SYC,Seychelles
+SLE,Sierra Leone
+SOM,Somalia
+ZAF,South Africa
+SSD,South Sudan
+SDN,Sudan
+SWZ,"Eswatini, formerly known as Swaziland"
+TZA,Tanzania
+TGO,Togo
+TUN,Tunisia
+UGA,Uganda
+ESH,Western Sahara
+ZMB,Zambia
+ZWE,Zimbabwe
+ATA,Antarctica
+BVT,Bouvet Island
+ATF,French Southern Territories
+HMD,Heard Island and McDonald Islands
+SGS,South Georgia and the South Sandwich Islands
+ASM,American Samoa
+AUS,Australia
+COK,Cook Islands
+FJI,Fiji
+PYF,French Polynesia
+GUM,Guam
+KIR,Kiribati
+MHL,Marshall Islands
+FSM,Micronesia
+NRU,Nauru
+NCL,New Caledonia
+NZL,New Zealand
+NIU,Niue
+NFK,Norfolk Island
+MNP,Northern Mariana Islands
+PLW,Palau
+PNG,Papua New Guinea
+PCN,Pitcairn Islands
+WSM,Samoa
+SLB,Solomon Islands
+TKL,Tokelau
+TON,"Tonga, Kingdom of"
+TUV,Tuvalu
+UMI,United States Minor Outlying Islands
+VUT,Vanuatu
+WLF,Wallis and Futuna
+AFG,Afghanistan
+AZE,Azerbaijan
+BHR,Bahrain
+BGD,Bangladesh
+BTN,Bhutan
+IOT,British Indian Ocean Territory
+BRN,Brunei Darussalam
+KHM,Cambodia
+CHN,"China, People's Republic of"
+CXR,Christmas Island
+CCK,Cocos (Keeling) Islands
+CYP,Cyprus
+GEO,Georgia
+HKG,Hong Kong
+IND,India
+IDN,Indonesia
+IRN,"Iran, Islamic Republic of"
+IRQ,Iraq
+ISR,Israel
+JPN,Japan
+JOR,Jordan
+KAZ,Kazakhstan
+PRK,"Korea, Democratic People's Republic of"
+KOR,"Korea, Republic of"
+KWT,Kuwait
+KGZ,Kyrgyzstan
+LAO,Lao People's Democratic Republic
+LBN,Lebanon
+MAC,Macao
+MYS,Malaysia
+MDV,Maldives
+MNG,Mongolia
+MMR,Myanmar
+NPL,Nepal
+OMN,Oman
+PAK,Pakistan
+PSE,Palestinian Territory
+PHL,Philippines
+QAT,Qatar
+SAU,Saudi Arabia
+SGP,Singapore
+LKA,Sri Lanka
+SYR,Syrian Arab Republic
+TWN,Taiwan
+TJK,Tajikistan
+THA,Thailand
+TLS,Timor-Leste
+TUR,Turkey
+TKM,Turkmenistan
+ARE,United Arab Emirates
+UZB,Uzbekistan
+VNM,Vietnam
+YEM,Yemen
+AIA,Anguilla
+ABW,Aruba
+BES,"Bonaire, Sint Eustatius and Saba"
+CAN,Canada
+CUB,Cuba
+CUW,Curaçao
+DMA,Dominica
+DOM,Dominican Republic
+SLV,El Salvador
+GRL,Greenland
+GRD,Grenada
+GLP,Guadeloupe
+GTM,Guatemala
+HTI,Haiti
+HND,Honduras
+JAM,Jamaica
+MTQ,Martinique
+MEX,Mexico
+MSR,Montserrat
+ANT,Netherlands Antilles
+NIC,Nicaragua
+PAN,Panama
+PRI,Puerto Rico
+BLM,Saint Barthelemy
+KNA,Saint Kitts and Nevis
+LCA,Saint Lucia
+MAF,Saint Martin
+SPM,Saint Pierre and Miquelon
+VCT,Saint Vincent and the Grenadines
+SXM,Sint Maarten (Netherlands)
+TTO,Trinidad and Tobago
+TCA,Turks and Caicos Islands
+UMI,United States Minor Outlying Islands
+USA,United States of America
+VIR,United States Virgin Islands
+ARG,Argentina
+BOL,Bolivia
+BRA,Brazil
+CHL,Chile
+COL,Colombia
+ECU,Ecuador
+FLK,Falkland Islands (Malvinas)
+GUF,French Guiana
+GUY,Guyana
+PRY,Paraguay
+PER,Peru
+SUR,Suriname
+URY,Uruguay
+VEN,Venezuela
