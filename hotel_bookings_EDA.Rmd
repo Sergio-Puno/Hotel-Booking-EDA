@@ -215,7 +215,7 @@ hotels %>%
 
 # Market Segment Analysis and Impact
 
-### Market segment breakdown with overall cancellations by hotel type
+### Market Segment Breakdown
 Checking out the top market segments of each hotel.
 
 ```{r}
@@ -384,6 +384,10 @@ second week as their most common. We can change this up a bit to see if any mont
 in particular show trends of bookings.
 
 # Bookings Time Series Analysis
+First we'll take a look at a single year available in the dataset which spans from
+July 1st, 2015 to August 31st, 2017. Looking at 2016 for both the city and resort 
+hotels, we can make a few observations:
+
 ```{r}
 hotels %>% 
   filter(between(arrival_date, as.Date("2016-01-01"), as.Date("2016-12-31"))) %>% 
@@ -395,18 +399,49 @@ hotels %>%
   theme(legend.position = "none") +
     labs(x = "Arrival Date", y = "# of Bookings",
        title = "Number of Bookings (2016)")
+```
 
+<br />
+<ul>
+<li> The city hotel bookings are more varied as there are more total bookings
+(almost double) compared to the resort hotel, but we can see bookings slowly rising
+during the first quarter of the year with a spike between Feb and Mar.
+<li> If you look at the resort bookings, we see the same spike between Feb and Mar, 
+referencing holidays that take place we can find Carnival (Mardi Gras) taking place 
+during this time window.
+time window a
+<li> While I would have expected bookings at a resort to jump in the summer, it appears
+that the period of time with the most spikes in bookings are from Feb to May which is
+more of a spring time focus.
+<li> The final note is the expected spike for new years in both, but this spike for
+city hotels is not a massive spike comparatively while the spike for resorts is fairly
+large compared to the rest of the year.
+</ul>
+
+<br />
+
+```{r}
 hotels %>% 
+  group_by(hotel, arrival_date_year, arrival_date_week_number) %>% 
+  count() %>% 
   group_by(hotel, arrival_date_week_number) %>% 
-  summarise(avg_bookings = mean(n())) %>% 
+  summarise(avg_bookings = mean(n)) %>% 
   mutate(year_month = ymd("2000-01-01") + weeks(arrival_date_week_number - 1)) %>% 
   ggplot(aes(year_month, avg_bookings)) +
   geom_line(aes(color = hotel), size = 2) +
   scale_x_date(date_labels = "%b-%d") +
-  facet_wrap(~ hotel, ncol = 1, scales = "free_y") +
+  facet_wrap(~ hotel, ncol = 1) +
   theme(legend.position = "none") +
   labs(x = "Arrival Date", y = "Avg Bookings",
-       title = "Average bookings: 2015-07-01 to 2017-8-31")
+       title = "Average bookings: July 2015 - August 2017")
   
 ```
 
+<br />
+Overall this average over the time periods provided shows a bit more clearly the 
+trends that each hotel has and how similar/different they can be. Both have a steady 
+climb at the beginning of the year with Carnival bookings leading into a dip from
+July to September and a final increase at the end of the year for new years.
+
+There is some divergence with the city hotel in the second half of the year 
+having a large resurgence in bookings from the end of September to November which we'll have to investigate further to identify what customers are driving this increase.
