@@ -13,7 +13,7 @@ output:
     code_folding: hide
     toc: true
     toc_float: true
-    theme: paper
+    theme: cosmo
     collapsed: true
     df_print: paged
 editor_options: 
